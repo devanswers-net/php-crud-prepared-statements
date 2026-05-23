@@ -1,0 +1,15 @@
+# Credentials. Operator copies config.sample.php to config.php and edits
+config.php
+
+# IDE
+.idea/
+.vscode/
+*.swp
+.DS_Store
+
+# Composer / vendor (not used by this demo, but defensive)
+/vendor/
+composer.lock
+
+# PHP error logs
+*.log
