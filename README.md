@@ -3,7 +3,7 @@
 Working companion code for two DevAnswers tutorials:
 
 - [PHP MySQLi CRUD with Prepared Statements](https://devanswers.net/php-mysqli-crud-prepared-statements/): [`mysqli/`](mysqli/)
-- [PHP PDO CRUD with Prepared Statements](https://devanswers.net/php-pdo-crud-prepared-statements/): [`pdo/`](pdo/) *(coming soon)*
+- [PHP PDO CRUD with Prepared Statements](https://devanswers.net/php-pdo-crud-prepared-statements/): [`pdo/`](pdo/)
 
 Both implementations use the same `members` schema and the same set of CRUD operations (Create / Read / Update / Delete) plus a transaction example, so you can read either article and run the matching code without translating between APIs.
 
@@ -24,7 +24,7 @@ Both implementations use the same `members` schema and the same set of CRUD oper
 │   ├── execute_query/         (PHP 8.2+ shortcut: 5 files, one per operation)
 │   └── prepare_bind_execute/  (PHP 8.1 fallback: prepare / bind_param / execute)
 └── pdo/
-    └── README.md              (placeholder for PDO; implementation lands with article 304 refresh)
+    └── README.md              (per-API quick-start + connect.php + cli_demo.php + index.php)
 ```
 
 ## Setup (one-time)
