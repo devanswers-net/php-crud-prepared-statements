@@ -68,7 +68,7 @@ function h(string $s): string {
     th, td { padding: 0.4rem 0.7rem; text-align: left; border-bottom: 1px solid #eee; }
     th    { background: #f5f5f5; }
     form.inline { display: inline; }
-    .msg   { padding: 0.6rem 1rem; background: #fff7e6; border-left: 4px solid #f5a623; margin: 1rem 0; }
+    .msg   { padding: 0.6rem 1rem; background: #fff7e6; border-radius: 4px; margin: 1rem 0; }
     label  { display: block; margin: 0.5rem 0 0.2rem; }
     input, select { padding: 0.3rem; font-size: 1rem; }
     button { padding: 0.3rem 0.7rem; cursor: pointer; }
