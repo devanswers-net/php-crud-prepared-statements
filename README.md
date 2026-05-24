@@ -61,7 +61,7 @@ You'll see the members list with an add/edit/delete form. Click around. Every in
 ├── README.md                  (this file)
 ├── LICENSE                    (MIT, use it however)
 ├── schema.sql                 (DB + table + devans_user, used by both mysqli/ and pdo/)
-├── seed.sql                   (optional Irish-name seed data)
+├── seed.sql                   (optional, loads 3 sample members)
 ├── config.sample.php          (credentials template, copy to config.php)
 ├── connect.php                (shared bootstrap)
 ├── mysqli/

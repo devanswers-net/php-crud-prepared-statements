@@ -41,7 +41,7 @@ php -S localhost:8000
 
 - Every example uses `mysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT)` (set in `connect.php`), so errors throw `mysqli_sql_exception` rather than silently returning `false`. This is the recommended pattern on PHP 8.x.
 - `config.php` is gitignored, so your credentials never get committed.
-- The `members` table uses Irish-name seed data (Maeve Gallagher, Declan Walsh, Fiona Doyle, Ronan Kelly) consistent with the article body.
+- `seed.sql` loads three sample members so the HTML UI has data to display on first load.
 
 ## See also
 

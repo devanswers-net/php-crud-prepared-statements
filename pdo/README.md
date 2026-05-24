@@ -35,7 +35,7 @@ php -S localhost:8000
 - `PDO::ERRMODE_EXCEPTION` is the default since PHP 8.0, but `connect.php` sets it explicitly so the intent is visible in the file. Pre-8.0 you'd have needed this line or PDO would silently return `false` on errors.
 - `PDO::ATTR_EMULATE_PREPARES = false` forces real server-side prepared statements (MySQL `COM_STMT_PREPARE` / `COM_STMT_EXECUTE`), not client-side string substitution. This is the safer default.
 - `config.php` is gitignored, so your credentials never get committed.
-- The `members` table uses Irish-name seed data (Maeve Gallagher, Declan Walsh, Fiona Doyle, Ronan Kelly) consistent with the article body.
+- `seed.sql` loads three sample members so the HTML UI has data to display on first load.
 
 ## When to choose PDO over MySQLi
 

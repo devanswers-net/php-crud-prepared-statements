@@ -14,7 +14,7 @@ mysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);
 
 $config_path = __DIR__ . '/config.php';
 if (! file_exists($config_path)) {
-    fwrite(STDERR, "config.php not found. Copy config.sample.php to config.php and edit." . PHP_EOL);
+    fwrite(STDERR, "config.php not found at {$config_path}. Run: cp config.sample.php config.php" . PHP_EOL);
     exit(1);
 }
 $config = require $config_path;
