@@ -9,11 +9,7 @@ Both implementations use the same `members` schema and the same CRUD operations 
 
 ## What you need first
 
-If you don't already have PHP + MySQL installed, follow one of our setup guides:
-
-- [PHP with Apache on Debian 12](https://devanswers.net/how-to-install-php-with-apache-on-debian-12/)
-- [PHP-FPM with nginx on Ubuntu 26.04](https://devanswers.net/how-to-install-php-fpm-with-nginx-on-ubuntu-26-04/)
-- [PHP-FPM with nginx on Debian 13](https://devanswers.net/how-to-install-php-fpm-with-nginx-on-debian-13/)
+If you don't already have a working LAMP or LEMP stack, our [Ultimate LAMP stack guide for Ubuntu 26.04](https://devanswers.net/ultimate-lamp-stack-guide-ubuntu-26-04/) walks through Apache + MySQL + PHP from scratch on a fresh server. Prefer nginx? Use the [LEMP version](https://devanswers.net/ultimate-lemp-stack-guide-ubuntu-26-04/) instead. Both target Ubuntu 26.04 LTS (current, supported through April 2031).
 
 Minimum: **PHP 8.1+** with the `pdo_mysql` and `mysqli` extensions, plus **MySQL 8.0+** or **MariaDB 10.5+** running locally.
 
