@@ -1,12 +1,14 @@
 -- DevAnswers.net: optional seed data
---   https://devanswers.net/php-crud-prepared-statements/
+--   https://devanswers.net/php-mysqli-crud-prepared-statements/
+--   https://devanswers.net/php-pdo-crud-prepared-statements/
 --
--- Optional. Loads 3 example members for immediate use of mysqli/index.php
--- (the HTML UI demo). Skip if you'd rather run cli_demo.php first, which
--- starts from an empty table and inserts its own example members.
+-- Optional. Loads 3 example members so the HTML UI (mysqli/index.php or
+-- pdo/index.php) isn't empty when you first open it. Skip this step if
+-- you'd rather see the empty-table state and add members yourself via
+-- the form.
 --
--- Run:
---   mysql -u devans -p devans_app < seed.sql
+-- Run as devans_user (credentials match what schema.sql created):
+--   mysql -u devans_user -p devans_app < seed.sql   # password: devans_pass
 
 USE devans_app;
 
